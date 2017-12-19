@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MyButton1.h"
 
 @interface ViewController ()
 
@@ -16,9 +17,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    MyButton1 *btn = [[MyButton1 alloc] initWithLength:100 point:CGPointMake(self.view.center.x - 100, self.view.center.y - 100 * sqrtf(3))];
+    [btn setBackgroundColor:UIColor.clearColor];
+    [self.view addSubview:btn];
+    btn.click = ^{
+        NSLog(@"click");
+    };
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

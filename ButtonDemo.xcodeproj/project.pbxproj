@@ -15,6 +15,8 @@
 		D92E644A1FE82350001EF8B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D92E64491FE82350001EF8B6 /* main.m */; };
 		D92E64541FE82350001EF8B6 /* ButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D92E64531FE82350001EF8B6 /* ButtonDemoTests.m */; };
 		D92E645F1FE82350001EF8B6 /* ButtonDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D92E645E1FE82350001EF8B6 /* ButtonDemoUITests.m */; };
+		D92E64711FE82635001EF8B6 /* MyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D92E64701FE82635001EF8B6 /* MyButton.m */; };
+		D92E64741FE82FB9001EF8B6 /* MyButton1.m in Sources */ = {isa = PBXBuildFile; fileRef = D92E64731FE82FB9001EF8B6 /* MyButton1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		D92E645A1FE82350001EF8B6 /* ButtonDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D92E645E1FE82350001EF8B6 /* ButtonDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonDemoUITests.m; sourceTree = "<group>"; };
 		D92E64601FE82350001EF8B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D92E646F1FE82635001EF8B6 /* MyButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyButton.h; sourceTree = "<group>"; };
+		D92E64701FE82635001EF8B6 /* MyButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyButton.m; sourceTree = "<group>"; };
+		D92E64721FE82FB9001EF8B6 /* MyButton1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyButton1.h; sourceTree = "<group>"; };
+		D92E64731FE82FB9001EF8B6 /* MyButton1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyButton1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				D92E64451FE82350001EF8B6 /* LaunchScreen.storyboard */,
 				D92E64481FE82350001EF8B6 /* Info.plist */,
 				D92E64491FE82350001EF8B6 /* main.m */,
+				D92E646F1FE82635001EF8B6 /* MyButton.h */,
+				D92E64701FE82635001EF8B6 /* MyButton.m */,
+				D92E64721FE82FB9001EF8B6 /* MyButton1.h */,
+				D92E64731FE82FB9001EF8B6 /* MyButton1.m */,
 			);
 			path = ButtonDemo;
 			sourceTree = "<group>";
@@ -268,6 +278,8 @@
 				D92E643F1FE82350001EF8B6 /* ViewController.m in Sources */,
 				D92E644A1FE82350001EF8B6 /* main.m in Sources */,
 				D92E643C1FE82350001EF8B6 /* AppDelegate.m in Sources */,
+				D92E64741FE82FB9001EF8B6 /* MyButton1.m in Sources */,
+				D92E64711FE82635001EF8B6 /* MyButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

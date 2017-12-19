@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MyButton1 : UIButton
+typedef void(^btnClick)();
 
+@interface MyButton1 : UIView
+
+- (instancetype)initWithLength:(CGFloat)reallength point:(CGPoint)realPoint;
+@property (nonatomic,copy) btnClick click;
 @end
